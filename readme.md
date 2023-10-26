@@ -42,7 +42,7 @@ npm start
 	
 A API estará disponível em http://localhost:3000.
 
-Endpoints
+## Endpoints
 A API oferece os seguintes endpoints para gerenciamento de avaliações de pacotes turísticos:
 
 **GET** /avaliacoes: Recupera todas as avaliações.
