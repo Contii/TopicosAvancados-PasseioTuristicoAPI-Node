@@ -1,0 +1,38 @@
+@URL=http://localhost:3001/avaliacoes
+################ GET ################
+### Obter todos
+GET {{URL}}
+
+### Obter pelo ID
+GET {{URL}}/a
+
+
+################ POST ###############
+### Inserir nova avaliacao
+POST {{URL}}/
+Content-Type: application/json
+
+{
+    "usuarioId": "10",
+    "passeioId": "2",
+    "titulo": "Não gostei",
+    "comentario": "achei caro pelo que oferece",
+    "nota": "3"
+}
+
+################ PUT ################
+### Alterar uma avaliacao
+PUT {{URL}}/651f09a1a1dd1
+Content-Type: application/json
+
+{
+    "usuarioId": "10",
+    "passeioId": "2",
+    "titulo": "Não gostei",
+    "comentario": "achei caro pelo que oferece e não recomendo",
+    "nota": "3"
+}
+
+############### DELETE ##############
+### Deletar uma avaliacao
+DELETE {{URL}}/a
