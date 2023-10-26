@@ -55,4 +55,6 @@ A API oferece os seguintes endpoints para gerenciamento de avaliações de pacot
 
 **DELETE** /avaliacoes/: id: Exclui uma avaliação por ID.
 
+****
+
 © 2023 **Joao Conti** | Este projeto faz parte das implementações da disciplina de Tópicos Avançados em Computação do curso de Ciência da Computação da **UTFPR-MD**, ministrada pelo **Prof. Dr. Ricardo Sobjak.**
