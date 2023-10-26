@@ -15,6 +15,7 @@ Content-Type: application/json
 {
     "usuarioId": "10",
     "passeioId": "2",
+    "usuarioNome": "Joao",
     "titulo": "Não gostei",
     "comentario": "achei caro pelo que oferece",
     "nota": "3"
@@ -28,6 +29,7 @@ Content-Type: application/json
 {
     "usuarioId": "10",
     "passeioId": "2",
+    "usuarioNome": "Jose",
     "titulo": "Não gostei",
     "comentario": "achei caro pelo que oferece e não recomendo",
     "nota": "3"
