@@ -12,7 +12,7 @@ A API é uma parte integrante do ecossistema de microsserviços composto por tr�
 
 A API de Avaliações de Pacotes Turísticos foi elaborada com a finalidade de exercitar a criação de microsserviços e oferecer uma aplicação eficiente para o gerenciamento de avaliações de clientes sobre os passeios turísticos. A seleção de tecnologias específicas para esta API foi fundamental para atingir esse propósito:
 
-- **JavaScript:** A linguagem de programação principal usada no desenvolvimento da aplicação.
+- **JavaScript: ** A linguagem de programação principal usada no desenvolvimento da aplicação.
 - **Node.js:** Plataforma de execução JavaScript do lado do servidor que permite a construção de aplicativos web e APIs.
 - **MongoDB:** Banco de dados NoSQL utilizado para armazenar as avaliações dos clientes de forma flexível e escalável.
 - **Express:** Framework Node.js que simplifica o desenvolvimento de aplicativos web, incluindo a criação de APIs REST.
@@ -32,29 +32,26 @@ git clone https://github.com/contii/TopicosAvancados-PasseioTuristicoAPI-Node.gi
 ```bash
 cd TopicosAvancados-PasseioTuristicoAPI-Node
 ```
-3. Compile e execute o aplicativo usando Gradle:
+3. Instale as dependências usando npm (Node.js Package Manager):
 ```bash
-./gradlew bootRun
+npm install
 ```
-A API estará disponível em http://localhost:8080.
+4. Inicie o servidor da API:
+```bash
+npm start
+```
+
+A API estará disponível em http://localhost:3000.
 
 ## Endpoints
 
-A API de Gerenciamento do Sistema Turístico oferece os seguintes endpoints para manipulação de informações relacionadas a pessoas, passeios, pacotes, pagamentos e outras entidades:
+A API oferece os seguintes endpoints para tratar avaliações dos passeios turísticos:
 
-### Pessoas:
-
-**GET** /person: Recupera todas as informações sobre pessoas.
-
-**GET** /person/: id: Recupera informações de uma pessoa específica por ID.
-
-**POST** /person: Insere informações sobre uma nova pessoa.
-
-**PUT** /person/: id: Atualiza informações de uma pessoa existente por ID.
-
-**DELETE** /person/: id: Exclui as informações de uma pessoa por ID.
-
-Os end-points das outras classes seguem o mesmo padrão e podem ser consultados na documentação do swagger.
+**GET** /avaliacoes: Recupera todas as avaliações.
+**GET** /avaliacoes/: id: Recupera uma avaliação específica por ID.
+**POST** /avaliacoes: Insere uma nova avaliação.
+**PUT** /avaliacoes/: id: Atualiza uma avaliação existente por ID.
+**DELETE** /avaliacoes/: id: Exclui uma avaliação por ID.
 
 ---
 
