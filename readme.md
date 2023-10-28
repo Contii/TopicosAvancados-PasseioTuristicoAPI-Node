@@ -12,13 +12,13 @@ A API é uma parte integrante do ecossistema de microsserviços composto por tr�
 
 A API de Avaliações de Pacotes Turísticos foi elaborada com a finalidade de exercitar a criação de microsserviços e oferecer uma aplicação eficiente para o gerenciamento de avaliações de clientes sobre os passeios turísticos. A seleção de tecnologias específicas para esta API foi fundamental para atingir esse propósito:
 
-- **JavaScript: ** A linguagem de programação principal usada no desenvolvimento da aplicação.
+- **JavaScript:** A linguagem de programação principal usada no desenvolvimento da aplicação.
 - **Node.js:** Plataforma de execução JavaScript do lado do servidor que permite a construção de aplicativos web e APIs.
 - **MongoDB:** Banco de dados NoSQL utilizado para armazenar as avaliações dos clientes de forma flexível e escalável.
 - **Express:** Framework Node.js que simplifica o desenvolvimento de aplicativos web, incluindo a criação de APIs REST.
 - **Outras dependências Node.js comuns:** Consulte o arquivo `package.json` para obter uma lista completa.
 
-Essas tecnologias foram escolhidas para desenvolver uma aplicação eficaz e eficiente para o gerenciamento de avaliações de pacotes turísticos. O Node.js permite a construção de aplicativos web de alto desempenho, o MongoDB é uma escolha adequada para armazenar dados não estruturados, o Express simplifica o desenvolvimento de APIs e as dependências Node.js comuns fornecem funcionalidades adicionais necessárias para a aplicação.
+Essas tecnologias foram escolhidas para desenvolver uma aplicação eficiente para o gerenciamento de avaliações de pacotes turísticos. O Node.js permite a construção de aplicativos web de alto desempenho, o MongoDB é uma escolha adequada para armazenar dados não estruturados, o Express simplifica o desenvolvimento de APIs e as dependências Node.js comuns fornecem funcionalidades adicionais necessárias para a aplicação.
 
 ## Como Iniciar
 
@@ -44,8 +44,7 @@ npm start
 A API estará disponível em http://localhost:3000.
 
 ## Endpoints
-
-A API oferece os seguintes endpoints para tratar avaliações dos passeios turísticos:
+A API oferece os seguintes endpoints para gerenciamento de avaliações de pacotes turísticos:
 
 **GET** /avaliacoes: Recupera todas as avaliações.
 **GET** /avaliacoes/: id: Recupera uma avaliação específica por ID.
