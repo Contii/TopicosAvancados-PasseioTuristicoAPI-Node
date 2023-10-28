@@ -54,7 +54,8 @@ A API de Gerenciamento do Sistema Turístico oferece os seguintes endpoints para
 
 **DELETE** /person/: id: Exclui as informações de uma pessoa por ID.
 
-Os end-points das outras classes seguem o mesmo padrão e podem ser consultados na documentação contida na documentação swagger.
+Os end-points das outras classes seguem o mesmo padrão e podem ser consultados na documentação do swagger.
+
 ---
 
 © 2023 **Joao Conti** | Este projeto faz parte das implementações da disciplina de Tópicos Avançados em Computação do curso de Ciência da Computação da **UTFPR-MD**, ministrada pelo **Prof. Dr. Ricardo Sobjak.**
