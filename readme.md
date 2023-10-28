@@ -47,9 +47,13 @@ A API estará disponível em http://localhost:3000.
 A API oferece os seguintes endpoints para gerenciamento de avaliações de pacotes turísticos:
 
 **GET** /avaliacoes: Recupera todas as avaliações.
+
 **GET** /avaliacoes/: id: Recupera uma avaliação específica por ID.
+
 **POST** /avaliacoes: Insere uma nova avaliação.
+
 **PUT** /avaliacoes/: id: Atualiza uma avaliação existente por ID.
+
 **DELETE** /avaliacoes/: id: Exclui uma avaliação por ID.
 
 ---
